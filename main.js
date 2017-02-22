@@ -255,7 +255,7 @@ Game.Launch=function()
 		=======================================================================================*/
 		Game.ExportSave=function()
 		{
-			var save=prompt('Copy this text and keep it somewhere safe!',Game.WriteSave(1));
+			var save=prompt('Copy this text and keep it somewhere safe! Eli was here',Game.WriteSave(1));
 		}
 		Game.ImportSave=function()
 		{
@@ -1633,7 +1633,7 @@ Game.Launch=function()
 				'<q>You disgust me.</q><sig>grandma</sig>',
 				'<q>We rise.</q><sig>grandma</sig>',
 				'<q>It begins.</q><sig>grandma</sig>',
-				'<q>It\'ll all be over soon.</q><sig>grandma</sig>',
+				'<q>It\'ll all be over soon/q><sig>grandma</sig>',
 				'<q>You could have stopped it.</q><sig>grandma</sig>'
 				]));
 				
@@ -1657,54 +1657,53 @@ Game.Launch=function()
 				]));
 				
 				if (Game.Objects['Farm'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Factory'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Mine'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Shipment'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Alchemy lab'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'			
 				]));
-				
 				if (Game.Objects['Portal'].amount>0) list.push(choose([
-				'News : Eli is cool',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Time machine'].amount>0) list.push(choose([
-				'News : Eli is cool.',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
 				if (Game.Objects['Antimatter condenser'].amount>0) list.push(choose([
-				'News : Eli is cool.',
-				'News : Hi Thomas, David, and Gabe.'
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli',
+				'News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli'
 				]));
 				
-				if (Game.HasAchiev('Base 10')) list.push('News : Eli is cool.');
-				if (Game.HasAchiev('From scratch')) list.push('News : Eli is cool.');
-				if (Game.HasAchiev('A world filled with cookies')) list.push('News : Eli is cool.');
-				if (Game.HasAchiev('Serendipity')) list.push('News : Hi Thomas, David, and Gabe.');
+				if (Game.HasAchiev('Base 10')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.HasAchiev('From scratch')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.HasAchiev('A world filled with cookies')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.HasAchiev('Serendipity')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
 				
-				if (Game.Has('Kitten helpers')) list.push('News : Eli is cool.');
-				if (Game.Has('Kitten workers')) list.push('News : Eli is cool.');
-				if (Game.Has('Kitten engineers')) list.push('News : Eli is cool.');
-				if (Game.Has('Kitten overseers')) list.push('News : Hi Thomas, David, and Gabe.');
+				if (Game.Has('Kitten helpers')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.Has('Kitten workers')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.Has('Kitten engineers')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
+				if (Game.Has('Kitten overseers')) list.push('News : Enjoying Cookie Clicker? Show your friends to keep the game popular! -Eli');
 				
 				var animals=['newts','penguins','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes'];
 				if (Game.cookiesEarned>=10000) list.push(
